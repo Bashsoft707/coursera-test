@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+h1{
+    font-family: cursive;
+    font-size-adjust: 300%;
+    text-align: center;
+}
+.row{
+    width: 100%;
+}
+.boxes{
+    float: left;
+    border: 1px solid black;
+    width: 100%;
+    background: gray;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    background: red;
+    border: 1px solid black;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 3px;
+    font-weight: bold;
+}
+#second{
+    background: green;
+    color: white;
+}
+#third{
+    background: blue;
+    color: yellow;
+}
+
+@media (min-width: 992px){
+    #first-box{
+        width: 32%;
+    }
+    #second-box{
+        width: 32%;
+    }
+    #third-box{
+        width: 32%;
+    }
+    .boxes{
+        margin: 6px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #first-box{
+        width: 48%;
+    }
+    #second-box{
+        width: 48%;
+    }
+    #third-box{
+        width: 97.8%;
+    }
+    .boxes{
+        margin: 6px;
+    }
+}
+
+@media (max-width: 767px){
+    #first-box{
+        width: 96%;
+    }
+    #second-box{
+        width: 96%;
+    }
+    #third-box{
+        width: 96%;
+    }
+    .boxes{
+        margin: 8px;
+    }
+}
