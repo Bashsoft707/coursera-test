@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid black;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background: none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: none;
+}.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar-default{
+    background: gray;
+    border: 2px solid black;
+    border-radius: 0;
+}
+.navbar-default .navbar-brand{
+    color: black;
+}
+h1{
+    font-family: cursive;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.text-rows{
+    margin-right: auto;
+    margin-left: auto;
+}  
+#collapsable-nav a{
+    font-size: 1.3em;
+    border: 1px solid black;
+    font-family: sans-serif;
+    color: black;
+    background: #ddd;
+    margin-bottom: -8px;
+    margin-top: -8px;
+}
+.contents{
+    background: gray;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+p{
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+
+@media (max-width: 768px){
+    .contents{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+  
+}
